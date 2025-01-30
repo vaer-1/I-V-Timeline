@@ -27,271 +27,222 @@
 </head>
 <body>
     <div class="timeline-container">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 4000">
+       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 4000">
     <defs>
         <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
-            <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+            <feGaussianBlur stdDeviation="1" result="coloredBlur" />
             <feMerge>
-                <feMergeNode in="coloredBlur"/>
-                <feMergeNode in="SourceGraphic"/>
+                <feMergeNode in="coloredBlur" />
+                <feMergeNode in="SourceGraphic" />
             </feMerge>
         </filter>
         
         <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
-            <stop offset="0%" style="stop-color:#1a1a1a"/>
-            <stop offset="100%" style="stop-color:#252525"/>
+            <stop offset="0%" style="stop-color:#1a1a1a" />
+            <stop offset="100%" style="stop-color:#252525" />
         </linearGradient>
     </defs>
     
-    <!-- Background -->
-    <rect width="1200" height="6000" fill="url(#bgGradient)"/>
     
-    <!-- Title -->
-    <text x="600" y="60" 
-          font-family="Georgia, serif" 
-          font-size="40" 
-          fill="#d4d4d4" 
-          text-anchor="middle">
+    <rect width="1200" height="6000" fill="url(#bgGradient)" />
+    
+    
+    <text x="600" y="60" font-family="Georgia, serif" font-size="40" fill="#d4d4d4" text-anchor="middle">
         Ardyn Chooses to be (More) Petty
     </text>
-    <text x="600" y="95" 
-          font-family="Arial, sans-serif" 
-          font-size="20" 
-          fill="#a0a0a0" 
-          text-anchor="middle">
+    <text x="600" y="95" font-family="Arial, sans-serif" font-size="20" fill="#a0a0a0" text-anchor="middle">
         Aka the AU Timeline of I&amp;V
     </text>
     
-    <!-- Central Timeline -->
-    <line x1="600" y1="120" x2="600" y2="3700" 
-          stroke="#404040" 
-          stroke-width="4"/>
+    
+    <line x1="600" y1="120" x2="600" y2="3700" stroke="#404040" stroke-width="4" />
 
-    <!-- Event 1 (Left) -->
-    <g transform="translate(50,150)">
-        <rect x="0" y="0" width="500" height="181" rx="5" 
-              fill="rgba(0,0,0,0.3)" 
-              stroke="#404040" 
-              stroke-width="2"/>
+    
+    <g transform="translate(0.0,150.0)">
+        <rect x="0" y="0" width="550" height="181" rx="5" fill="rgba(0,0,0,0.3)" stroke="#404040" stroke-width="2" />
         <text x="25" y="35" fill="#d4d4d4" font-size="20" font-weight="bold" filter="url(#glow)">M.E. 743</text>
         <text x="25" y="65" fill="#d4d4d4" font-size="22" font-weight="bold">The Red String is Tied</text>
-        <text x="25" y="100" fill="#ffffff" font-size="17">At age 10, Ignis is assigned as Noctis's (7) advisor and</text>
-        <text x="25" y="127" fill="#ffffff" font-size="17">caretaker, beginning a lifelong connection that would</text>
-        <text x="25" y="154" fill="#ffffff" font-size="17">shape both of them.</text>
-        <line x1="500" y1="90.5" x2="550" y2="90.5" stroke="#404040" stroke-width="2"/>
-        <circle cx="550" cy="90.5" r="4" fill="#404040"/>
+        <text x="25" y="100" fill="#ffffff" font-size="16">At age 10, Ignis is assigned as Noctis's (7) advisor and</text>
+        <text x="25" y="127" fill="#ffffff" font-size="16">caretaker, beginning a lifelong connection that would</text>
+        <text x="25" y="154" fill="#ffffff" font-size="16">shape both of them.</text>
+        <line x1="550" y1="90.5" x2="600" y2="90.5" stroke="#404040" stroke-width="2" />
+        <circle cx="600" cy="90.5" r="4" fill="#404040" />
     </g>
 
-    <!-- Event 2 (Right) -->
-    <g transform="translate(630,400)">
-        <rect x="0" y="0" width="500" height="208" rx="5" 
-              fill="rgba(0,0,0,0.3)" 
-              stroke="#404040" 
-              stroke-width="2"/>
+    
+    <g transform="translate(650.0,400.0)">
+        <rect x="0" y="0" width="550" height="208" rx="5" fill="rgba(0,0,0,0.3)" stroke="#404040" stroke-width="2" />
         <text x="25" y="35" fill="#d4d4d4" font-size="20" font-weight="bold" filter="url(#glow)">M.E. 752</text>
         <text x="25" y="65" fill="#d4d4d4" font-size="22" font-weight="bold">Solace in Drink</text>
-        <text x="25" y="100" fill="#ffffff" font-size="17">Noctis comes home drunk and is given chamomile tea (a</text>
-        <text x="25" y="127" fill="#ffffff" font-size="17">family recipe) and a stern lecture. Despite everything</text>
-        <text x="25" y="154" fill="#ffffff" font-size="17">this marks a period of understanding and mutual closeness</text>
-        <text x="25" y="181" fill="#ffffff" font-size="17">between the two young men.</text>
-        <line x1="0" y1="104" x2="-30" y2="104" stroke="#404040" stroke-width="2"/>
-        <circle cx="-30" cy="104" r="4" fill="#404040"/>
+        <text x="25" y="100" fill="#ffffff" font-size="16">Noctis comes home drunk and is given chamomile tea (a</text>
+        <text x="25" y="127" fill="#ffffff" font-size="16">family recipe) and a stern lecture. Despite everything</text>
+        <text x="25" y="154" fill="#ffffff" font-size="16">this marks a period of understanding and mutual closeness</text>
+        <text x="25" y="181" fill="#ffffff" font-size="16">between the two young men.</text>
+        <line x1="0" y1="104" x2="-50" y2="104" stroke="#404040" stroke-width="2" />
+        <circle cx="-50" cy="104" r="4" fill="#404040" />
     </g>
 
-    <!-- Event 3 (Left) -->
-    <g transform="translate(50,650)">
-        <rect x="0" y="0" width="500" height="235" rx="5" 
-              fill="rgba(0,0,0,0.3)" 
-              stroke="#404040" 
-              stroke-width="2"/>
+    
+    <g transform="translate(0.0,650.0)">
+        <rect x="0" y="0" width="550" height="235" rx="5" fill="rgba(0,0,0,0.3)" stroke="#404040" stroke-width="2" />
         <text x="25" y="35" fill="#d4d4d4" font-size="20" font-weight="bold" filter="url(#glow)">Early M.E. 753</text>
         <text x="25" y="65" fill="#d4d4d4" font-size="22" font-weight="bold">The War Worsens</text>
-        <text x="25" y="100" fill="#ffffff" font-size="17">Fueled by technological advantages and Ardyn's assistance</text>
-        <text x="25" y="127" fill="#ffffff" font-size="17">in research on daemons in the field of Magitek, the</text>
-        <text x="25" y="154" fill="#ffffff" font-size="17">conflict between the Empire and Lucis takes a turn for the</text>
-        <text x="25" y="181" fill="#ffffff" font-size="17">worse. Regis considers his options limited in a</text>
-        <text x="25" y="208" fill="#ffffff" font-size="17">long-standing, losing battle of attrition.</text>
-        <line x1="500" y1="117.5" x2="550" y2="117.5" stroke="#404040" stroke-width="2"/>
-        <circle cx="550" cy="117.5" r="4" fill="#404040"/>
+        <text x="25" y="100" fill="#ffffff" font-size="16">Fueled by technological advantages and Ardyn's assistance</text>
+        <text x="25" y="127" fill="#ffffff" font-size="16">in research on daemons in the field of Magitek, the</text>
+        <text x="25" y="154" fill="#ffffff" font-size="16">conflict between the Empire and Lucis takes a turn for the</text>
+        <text x="25" y="181" fill="#ffffff" font-size="16">worse. Regis considers his options limited in a</text>
+        <text x="25" y="208" fill="#ffffff" font-size="16">long-standing, losing battle of attrition.</text>
+        <line x1="550" y1="117.5" x2="600" y2="117.5" stroke="#404040" stroke-width="2" />
+        <circle cx="600" cy="117.5" r="4" fill="#404040" />
     </g>
 
-    <!-- Event 4 (Right) -->
-    <g transform="translate(630,900)">
-        <rect x="0" y="0" width="500" height="316" rx="5" 
-              fill="rgba(0,0,0,0.3)" 
-              stroke="#404040" 
-              stroke-width="2"/>
-        <text x="25" y="35" fill="#d4d4d4" font-size="20" font-weight="bold" filter="url(#glow)">M.E. 753 (Late)</text>
+    
+    <g transform="translate(650.0,900.0)">
+        <rect x="0" y="0" width="550" height="316" rx="5" fill="rgba(0,0,0,0.3)" stroke="#404040" stroke-width="2" />
+        <text x="25" y="35" fill="#d4d4d4" font-size="20" font-weight="bold" filter="url(#glow)">Late M.E. 753</text>
         <text x="25" y="65" fill="#d4d4d4" font-size="22" font-weight="bold">Divergence</text>
-        <text x="25" y="100" fill="#ffffff" font-size="17">Ardyn, influenced by an unknown force and having witnessed</text>
-        <text x="25" y="127" fill="#ffffff" font-size="17">Regis on the battlefield decades prior, makes the fateful</text>
-        <text x="25" y="154" fill="#ffffff" font-size="17">decision to enact his revenge with a more personal twist</text>
-        <text x="25" y="181" fill="#ffffff" font-size="17">of the knife to all that wronged him. He appears before</text>
-        <text x="25" y="208" fill="#ffffff" font-size="17">the King as an apparition, posing as the spirit of a</text>
-        <text x="25" y="235" fill="#ffffff" font-size="17">concerned royal ancestor, offering tempting alternatives</text>
-        <text x="25" y="262" fill="#ffffff" font-size="17">to a man desperate to avert disaster and deny the fate</text>
-        <text x="25" y="289" fill="#ffffff" font-size="17">that he knows awaits his son...</text>
-        <line x1="0" y1="158" x2="-30" y2="158" stroke="#404040" stroke-width="2"/>
-        <circle cx="-30" cy="158" r="4" fill="#404040"/>
+        <text x="25" y="100" fill="#ffffff" font-size="16">Ardyn, influenced by an unknown force and having witnessed</text>
+        <text x="25" y="127" fill="#ffffff" font-size="16">Regis on the battlefield decades prior, makes the fateful</text>
+        <text x="25" y="154" fill="#ffffff" font-size="16">decision to enact his revenge with a more personal twist</text>
+        <text x="25" y="181" fill="#ffffff" font-size="16">of the knife to all that wronged him. He appears before</text>
+        <text x="25" y="208" fill="#ffffff" font-size="16">the King as an apparition, posing as the spirit of a</text>
+        <text x="25" y="235" fill="#ffffff" font-size="16">concerned royal ancestor, offering tempting alternatives</text>
+        <text x="25" y="262" fill="#ffffff" font-size="16">to a man desperate to avert disaster and deny the fate</text>
+        <text x="25" y="289" fill="#ffffff" font-size="16">that he knows awaits his son...</text>
+        <line x1="0" y1="158" x2="-50" y2="158" stroke="#404040" stroke-width="2" />
+        <circle cx="-50" cy="158" r="4" fill="#404040" />
     </g>
 
-    <!-- Event 5 (Left) -->
-    <g transform="translate(50,1180)">
-        <rect x="0" y="0" width="500" height="235" rx="5" 
-              fill="rgba(0,0,0,0.3)" 
-              stroke="#404040" 
-              stroke-width="2"/>
+    
+    <g transform="translate(0.0,1180.0)">
+        <rect x="0" y="0" width="550" height="235" rx="5" fill="rgba(0,0,0,0.3)" stroke="#404040" stroke-width="2" />
         <text x="25" y="35" fill="#d4d4d4" font-size="20" font-weight="bold" filter="url(#glow)">M.E. 754</text>
         <text x="25" y="65" fill="#d4d4d4" font-size="22" font-weight="bold">A Miraculous Comeback</text>
-        <text x="25" y="100" fill="#ffffff" font-size="17">Ardyn shows Regis Ars Aeterna, a method of utilizing the</text>
-        <text x="25" y="127" fill="#ffffff" font-size="17">Ring and the Crystal to manipulate time itself. Using this</text>
-        <text x="25" y="154" fill="#ffffff" font-size="17">newfound ability, Lucis makes a staggering recovery. The</text>
-        <text x="25" y="181" fill="#ffffff" font-size="17">Empire begins to be pushed back, but the conflict</text>
-        <text x="25" y="208" fill="#ffffff" font-size="17">intensifies, putting strain on both sides.</text>
-        <line x1="500" y1="117.5" x2="550" y2="117.5" stroke="#404040" stroke-width="2"/>
-        <circle cx="550" cy="117.5" r="4" fill="#404040"/>
+        <text x="25" y="100" fill="#ffffff" font-size="16">Ardyn teaches Regis Ars Aeterna, a method of utilizing the</text>
+        <text x="25" y="127" fill="#ffffff" font-size="16">Ring and the Crystal to manipulate time itself. Using this</text>
+        <text x="25" y="154" fill="#ffffff" font-size="16">newfound ability, Lucis makes a staggering recovery. The</text>
+        <text x="25" y="181" fill="#ffffff" font-size="16">Empire begins to be pushed back, but the conflict</text>
+        <text x="25" y="208" fill="#ffffff" font-size="16">intensifies, putting strain on both sides.</text>
+        <line x1="550" y1="117.5" x2="600" y2="117.5" stroke="#404040" stroke-width="2" />
+        <circle cx="600" cy="117.5" r="4" fill="#404040" />
     </g>
 
-    <!-- Event 6 (Right) -->
-    <g transform="translate(630,1460)">
-        <rect x="0" y="0" width="500" height="262" rx="5" 
-              fill="rgba(0,0,0,0.3)" 
-              stroke="#404040" 
-              stroke-width="2"/>
+    
+    <g transform="translate(650.0,1460.0)">
+        <rect x="0" y="0" width="550" height="262" rx="5" fill="rgba(0,0,0,0.3)" stroke="#404040" stroke-width="2" />
         <text x="25" y="35" fill="#d4d4d4" font-size="20" font-weight="bold" filter="url(#glow)">November M.E. 754</text>
         <text x="25" y="65" fill="#d4d4d4" font-size="22" font-weight="bold">Trial by Fire</text>
-        <text x="25" y="100" fill="#ffffff" font-size="17">With rapidly worsening health and the leadership of Lucis</text>
-        <text x="25" y="127" fill="#ffffff" font-size="17">in a restless uproar, Regis makes the decision to send</text>
-        <text x="25" y="154" fill="#ffffff" font-size="17">Noctis and his retinue to assist in the war. He hopes the</text>
-        <text x="25" y="181" fill="#ffffff" font-size="17">experience will push the Prince to lead and strengthen</text>
-        <text x="25" y="208" fill="#ffffff" font-size="17">their bonds, preparing Noctis for the heavy burden of</text>
-        <text x="25" y="235" fill="#ffffff" font-size="17">rulership.</text>
-        <line x1="0" y1="131" x2="-30" y2="131" stroke="#404040" stroke-width="2"/>
-        <circle cx="-30" cy="131" r="4" fill="#404040"/>
+        <text x="25" y="100" fill="#ffffff" font-size="16">With rapidly worsening health and the leadership of Lucis</text>
+        <text x="25" y="127" fill="#ffffff" font-size="16">in a restless uproar, Regis makes the decision to send</text>
+        <text x="25" y="154" fill="#ffffff" font-size="16">Noctis and his retinue to assist in the war. He hopes the</text>
+        <text x="25" y="181" fill="#ffffff" font-size="16">experience will push the Prince to lead and strengthen</text>
+        <text x="25" y="208" fill="#ffffff" font-size="16">their bonds, preparing Noctis for the heavy burden of</text>
+        <text x="25" y="235" fill="#ffffff" font-size="16">rulership.</text>
+        <line x1="0" y1="131" x2="-50" y2="131" stroke="#404040" stroke-width="2" />
+        <circle cx="-50" cy="131" r="4" fill="#404040" />
     </g>
 
-    <!-- Event 7 (Left) -->
-    <g transform="translate(50,1740)">
-        <rect x="0" y="0" width="500" height="289" rx="5" 
-              fill="rgba(0,0,0,0.3)" 
-              stroke="#404040" 
-              stroke-width="2"/>
+    
+    <g transform="translate(0.0,1740.0)">
+        <rect x="0" y="0" width="550" height="289" rx="5" fill="rgba(0,0,0,0.3)" stroke="#404040" stroke-width="2" />
         <text x="25" y="35" fill="#d4d4d4" font-size="20" font-weight="bold" filter="url(#glow)">Early M.E. 756</text>
         <text x="25" y="65" fill="#d4d4d4" font-size="22" font-weight="bold">A Temporary Peace</text>
-        <text x="25" y="100" fill="#ffffff" font-size="17">Scrambling to identify how Lucis has been able to turn the</text>
-        <text x="25" y="127" fill="#ffffff" font-size="17">tides after decades of losing ground, the Empire</text>
-        <text x="25" y="154" fill="#ffffff" font-size="17">reluctantly withdrawals to regroup and re-access, planning</text>
-        <text x="25" y="181" fill="#ffffff" font-size="17">on identifying the cause via reconnaissance and fortify</text>
-        <text x="25" y="208" fill="#ffffff" font-size="17">their army in the same move.</text>
-        <text x="25" y="235" fill="#ffffff" font-size="17">A ceasefire agreement is reached between the two empires.</text>
-        <line x1="500" y1="144.5" x2="550" y2="144.5" stroke="#404040" stroke-width="2"/>
-        <circle cx="550" cy="144.5" r="4" fill="#404040"/>
+        <text x="25" y="100" fill="#ffffff" font-size="16">Scrambling to identify how Lucis has been able to turn the</text>
+        <text x="25" y="127" fill="#ffffff" font-size="16">tides after decades of losing ground, the Empire</text>
+        <text x="25" y="154" fill="#ffffff" font-size="16">reluctantly withdrawals to regroup and re-access, planning</text>
+        <text x="25" y="181" fill="#ffffff" font-size="16">on identifying the cause via reconnaissance and fortify</text>
+        <text x="25" y="208" fill="#ffffff" font-size="16">their army in the same move.</text>
+        <text x="25" y="235" fill="#ffffff" font-size="16">A ceasefire agreement is reached between the two empires.</text>
+        <line x1="550" y1="144.5" x2="600" y2="144.5" stroke="#404040" stroke-width="2" />
+        <circle cx="600" cy="144.5" r="4" fill="#404040" />
     </g>
 
-    <!-- Event 8 (Right) -->
-    <g transform="translate(630,2020)">
-        <rect x="0" y="0" width="500" height="370" rx="5" 
-              fill="rgba(0,0,0,0.3)" 
-              stroke="#404040" 
-              stroke-width="2"/>
+    
+    <g transform="translate(650.0,2020.0)">
+        <rect x="0" y="0" width="550" height="370" rx="5" fill="rgba(0,0,0,0.3)" stroke="#404040" stroke-width="2" />
         <text x="25" y="35" fill="#d4d4d4" font-size="20" font-weight="bold" filter="url(#glow)">Mid M.E. 756</text>
         <text x="25" y="65" fill="#d4d4d4" font-size="22" font-weight="bold">Wounded</text>
-        <text x="25" y="100" fill="#ffffff" font-size="17">For the first time in over two decades, Lucian citizens</text>
-        <text x="25" y="127" fill="#ffffff" font-size="17">beyond Crown City live free of the shadow of war. However</text>
-        <text x="25" y="154" fill="#ffffff" font-size="17">relations remain strained between Insomnia and the other</text>
-        <text x="25" y="181" fill="#ffffff" font-size="17">regions - Galahd, Cleigne, Leide, Duscae, and others.</text>
-        <text x="25" y="235" fill="#ffffff" font-size="17">Regis directs resources toward humanitarian aid and</text>
-        <text x="25" y="262" fill="#ffffff" font-size="17">recovery efforts. Feeling a deep regret for his decision</text>
-        <text x="25" y="289" fill="#ffffff" font-size="17">to shelter Noctis from the world, Regis doubles his</text>
-        <text x="25" y="316" fill="#ffffff" font-size="17">efforts by immersing the Prince in intense courses of</text>
-        <text x="25" y="343" fill="#ffffff" font-size="17">governance and diplomacy.</text>
-        <line x1="0" y1="185" x2="-30" y2="185" stroke="#404040" stroke-width="2"/>
-        <circle cx="-30" cy="185" r="4" fill="#404040"/>
+        <text x="25" y="100" fill="#ffffff" font-size="16">For the first time in over two decades, Lucian citizens</text>
+        <text x="25" y="127" fill="#ffffff" font-size="16">beyond Crown City live free of the shadow of war. However</text>
+        <text x="25" y="154" fill="#ffffff" font-size="16">relations remain strained between Insomnia and the other</text>
+        <text x="25" y="181" fill="#ffffff" font-size="16">regions - Galahd, Cleigne, Leide, Duscae, and others.</text>
+        <text x="25" y="235" fill="#ffffff" font-size="16">Regis directs resources toward humanitarian aid and</text>
+        <text x="25" y="262" fill="#ffffff" font-size="16">recovery efforts. Feeling a deep regret for his decision</text>
+        <text x="25" y="289" fill="#ffffff" font-size="16">to shelter Noctis from the world, Regis doubles his</text>
+        <text x="25" y="316" fill="#ffffff" font-size="16">efforts by immersing the Prince in intense courses of</text>
+        <text x="25" y="343" fill="#ffffff" font-size="16">governance and diplomacy.</text>
+        <line x1="0" y1="185" x2="-50" y2="185" stroke="#404040" stroke-width="2" />
+        <circle cx="-50" cy="185" r="4" fill="#404040" />
     </g>
 
-    <!-- Event 9 (Left) -->
-    <g transform="translate(50,2300)">
-        <rect x="0" y="0" width="500" height="235" rx="5" 
-              fill="rgba(0,0,0,0.3)" 
-              stroke="#404040" 
-              stroke-width="2"/>
+    
+    <g transform="translate(0.0,2300.0)">
+        <rect x="0" y="0" width="550" height="235" rx="5" fill="rgba(0,0,0,0.3)" stroke="#404040" stroke-width="2" />
         <text x="25" y="35" fill="#d4d4d4" font-size="20" font-weight="bold" filter="url(#glow)">March M.E. 756</text>
         <text x="25" y="65" fill="#d4d4d4" font-size="22" font-weight="bold">Go Forth</text>
-        <text x="25" y="100" fill="#ffffff" font-size="17">Noctis and company are brought before Regis with the</text>
-        <text x="25" y="127" fill="#ffffff" font-size="17">double task of repairing diplomacy to outer regions and</text>
-        <text x="25" y="154" fill="#ffffff" font-size="17">for him to strengthen himself and prepare to rule. Regis</text>
-        <text x="25" y="181" fill="#ffffff" font-size="17">rescinds power over the armiger weapons, restoring them</text>
-        <text x="25" y="208" fill="#ffffff" font-size="17">to their locations in each tomb.</text>
-        <line x1="500" y1="117.5" x2="550" y2="117.5" stroke="#404040" stroke-width="2"/>
-        <circle cx="550" cy="117.5" r="4" fill="#404040"/>
+        <text x="25" y="100" fill="#ffffff" font-size="16">Noctis and company are brought before Regis with the</text>
+        <text x="25" y="127" fill="#ffffff" font-size="16">double task of repairing diplomacy to outer regions and</text>
+        <text x="25" y="154" fill="#ffffff" font-size="16">for him to strengthen himself and prepare to rule. Regis</text>
+        <text x="25" y="181" fill="#ffffff" font-size="16">rescinds power over the armiger weapons, restoring them</text>
+        <text x="25" y="208" fill="#ffffff" font-size="16">to their locations in each tomb.</text>
+        <line x1="550" y1="117.5" x2="600" y2="117.5" stroke="#404040" stroke-width="2" />
+        <circle cx="600" cy="117.5" r="4" fill="#404040" />
     </g>
 
-    <!-- Event 10 (Right) -->
-    <g transform="translate(630,2580)">
-        <rect x="0" y="0" width="500" height="343" rx="5" 
-              fill="rgba(0,0,0,0.3)" 
-              stroke="#404040" 
-              stroke-width="2"/>
+    
+    <g transform="translate(650.0,2580.0)">
+        <rect x="0" y="0" width="550" height="343" rx="5" fill="rgba(0,0,0,0.3)" stroke="#404040" stroke-width="2" />
         <text x="25" y="35" fill="#d4d4d4" font-size="20" font-weight="bold" filter="url(#glow)">March-August M.E. 756</text>
         <text x="25" y="65" fill="#d4d4d4" font-size="22" font-weight="bold">A Task and Fresh Skies</text>
-        <text x="25" y="100" fill="#ffffff" font-size="17">Over the course of four months, Noctis claims three of</text>
-        <text x="25" y="127" fill="#ffffff" font-size="17">the Royal Arms: the Bow of the Clever, the Scepter of the</text>
-        <text x="25" y="154" fill="#ffffff" font-size="17">Pious, and the Shield of the Just. Betwixt these</text>
-        <text x="25" y="181" fill="#ffffff" font-size="17">explorations, he makes frequent stops along the way,</text>
-        <text x="25" y="208" fill="#ffffff" font-size="17">aiding locals and winning them over. In the face of</text>
-        <text x="25" y="235" fill="#ffffff" font-size="17">freedom on an open road (and a boat at his disposal)</text>
-        <text x="25" y="262" fill="#ffffff" font-size="17">Noctis ropes the group into going deep sea fishing for a</text>
-        <text x="25" y="289" fill="#ffffff" font-size="17">couple weeks, stopping in Cielmerscintillant, Accordo's</text>
-        <text x="25" y="316" fill="#ffffff" font-size="17">renowned trade capital.</text>
-        <line x1="0" y1="171.5" x2="-30" y2="171.5" stroke="#404040" stroke-width="2"/>
-        <circle cx="-30" cy="171.5" r="4" fill="#404040"/>
+        <text x="25" y="100" fill="#ffffff" font-size="16">Over the course of four months, Noctis claims three of</text>
+        <text x="25" y="127" fill="#ffffff" font-size="16">the Royal Arms: the Bow of the Clever, the Scepter of the</text>
+        <text x="25" y="154" fill="#ffffff" font-size="16">Pious, and the Shield of the Just. Betwixt these</text>
+        <text x="25" y="181" fill="#ffffff" font-size="16">explorations, he makes frequent stops along the way,</text>
+        <text x="25" y="208" fill="#ffffff" font-size="16">aiding locals and winning them over. In the face of</text>
+        <text x="25" y="235" fill="#ffffff" font-size="16">freedom on an open road (and a boat at his disposal)</text>
+        <text x="25" y="262" fill="#ffffff" font-size="16">Noctis ropes the group into going deep sea fishing for a</text>
+        <text x="25" y="289" fill="#ffffff" font-size="16">couple weeks, stopping in Cielmerscintillant, Accordo's</text>
+        <text x="25" y="316" fill="#ffffff" font-size="16">renowned trade capital.</text>
+        <line x1="0" y1="171.5" x2="-50" y2="171.5" stroke="#404040" stroke-width="2" />
+        <circle cx="-50" cy="171.5" r="4" fill="#404040" />
     </g>
 
-    <!-- Event 11 (Left) -->
-    <g transform="translate(50,2860)">
-        <rect x="0" y="0" width="500" height="235" rx="5" 
-              fill="rgba(0,0,0,0.3)" 
-              stroke="#404040" 
-              stroke-width="2"/>
+    
+    <g transform="translate(0.0,2860.0)">
+        <rect x="0" y="0" width="550" height="235" rx="5" fill="rgba(0,0,0,0.3)" stroke="#404040" stroke-width="2" />
         <text x="25" y="35" fill="#d4d4d4" font-size="20" font-weight="bold" filter="url(#glow)">Late August M.E. 756</text>
         <text x="25" y="65" fill="#d4d4d4" font-size="22" font-weight="bold">Matters of the Heart</text>
-        <text x="25" y="100" fill="#ffffff" font-size="17">Resenting Ignis's renewed propriety and forced to think</text>
-        <text x="25" y="127" fill="#ffffff" font-size="17">about his future, tensions between Noctis and his advisor</text>
-        <text x="25" y="154" fill="#ffffff" font-size="17">grow to a boiling point- resulting in a confession that</text>
-        <text x="25" y="181" fill="#ffffff" font-size="17">would change everything in an instant- yet nothing, all at</text>
-        <text x="25" y="208" fill="#ffffff" font-size="17">once. Noctis, heart aching, orders they return home.</text>
-        <line x1="500" y1="117.5" x2="550" y2="117.5" stroke="#404040" stroke-width="2"/>
-        <circle cx="550" cy="117.5" r="4" fill="#404040"/>
+        <text x="25" y="100" fill="#ffffff" font-size="16">Resenting Ignis's renewed propriety and forced to think</text>
+        <text x="25" y="127" fill="#ffffff" font-size="16">about his future, tensions between Noctis and his advisor</text>
+        <text x="25" y="154" fill="#ffffff" font-size="16">grow to a boiling point- resulting in a confession that</text>
+        <text x="25" y="181" fill="#ffffff" font-size="16">would change everything in an instant- yet nothing, all at</text>
+        <text x="25" y="208" fill="#ffffff" font-size="16">once. Noctis, heart aching, orders they return home.</text>
+        <line x1="550" y1="117.5" x2="600" y2="117.5" stroke="#404040" stroke-width="2" />
+        <circle cx="600" cy="117.5" r="4" fill="#404040" />
     </g>
 
-    <!-- Event 12 (Right) -->
-    <g transform="translate(630,3140)">
-        <rect x="0" y="0" width="500" height="390" rx="5" 
-              fill="rgba(0,0,0,0.3)" 
-              stroke="#404040" 
-              stroke-width="2"/>
+    
+    <g transform="translate(650.0,3140.0)">
+        <rect x="0" y="0" width="550" height="390" rx="5" fill="rgba(0,0,0,0.3)" stroke="#404040" stroke-width="2" />
         <text x="25" y="35" fill="#d4d4d4" font-size="20" font-weight="bold" filter="url(#glow)">September M.E. 756</text>
         <text x="25" y="65" fill="#d4d4d4" font-size="22" font-weight="bold">Unending Devotion - and Love</text>
-        <text x="25" y="100" fill="#ffffff" font-size="17">Between mounting meddling from the Empire, Ignis</text>
-        <text x="25" y="127" fill="#ffffff" font-size="17">navigates his role and sentiments for Noctis, ultimately</text>
-        <text x="25" y="154" fill="#ffffff" font-size="17">deciding that remaining at his side and supporting him</text>
-        <text x="25" y="181" fill="#ffffff" font-size="17">properly means being true to himself and his feelings.</text>
-        <text x="25" y="208" fill="#ffffff" font-size="17">Their connection is reforged, stronger than ever.</text>
-        <text x="25" y="262" fill="#ffffff" font-size="17">Meanwhile, Regis senses his encroaching end and rushes to</text>
-        <text x="25" y="289" fill="#ffffff" font-size="17">fortify Noctis's position as heir. His efforts are cut</text>
-        <text x="25" y="316" fill="#ffffff" font-size="17">short as his abuse of the Ring catches up with him,</text>
-        <text x="25" y="343" fill="#ffffff" font-size="17">Ardyn's machinations coming to fruition in the most</text>
-        <text x="25" y="370" fill="#ffffff" font-size="17">horrifying way possible.</text>
-        <line x1="0" y1="185" x2="-30" y2="185" stroke="#404040" stroke-width="2"/>
-        <circle cx="-30" cy="185" r="4" fill="#404040"/>
+        <text x="25" y="100" fill="#ffffff" font-size="16">Between mounting meddling from the Empire, Ignis</text>
+        <text x="25" y="127" fill="#ffffff" font-size="16">navigates his role and sentiments for Noctis, ultimately</text>
+        <text x="25" y="154" fill="#ffffff" font-size="16">deciding that remaining at his side and supporting him</text>
+        <text x="25" y="181" fill="#ffffff" font-size="16">properly means being true to himself and his feelings.</text>
+        <text x="25" y="208" fill="#ffffff" font-size="16">Their connection is reforged, stronger than ever.</text>
+        <text x="25" y="262" fill="#ffffff" font-size="16">Meanwhile, Regis senses his encroaching end and rushes to</text>
+        <text x="25" y="289" fill="#ffffff" font-size="16">fortify Noctis's position as heir. His efforts are cut</text>
+        <text x="25" y="316" fill="#ffffff" font-size="16">short as his abuse of the Ring catches up with him,</text>
+        <text x="25" y="343" fill="#ffffff" font-size="16">Ardyn's machinations coming to fruition in the most</text>
+        <text x="25" y="370" fill="#ffffff" font-size="16">horrifying way possible.</text>
+        <line x1="0" y1="185" x2="-50" y2="185" stroke="#404040" stroke-width="2" />
+        <circle cx="-50" cy="185" r="4" fill="#404040" />
     </g>
 
-    <!-- Event 13 (Center) -->
+    
     <g transform="translate(350,3700)">
-        <rect x="0" y="0" width="500" height="208" rx="5" 
-              fill="rgba(0,0,0,0.3)" 
-              stroke="#404040" 
-              stroke-width="2"/>
+        <rect x="0" y="0" width="500" height="208" rx="5" fill="rgba(0,0,0,0.3)" stroke="#404040" stroke-width="2" />
         <text x="25" y="35" fill="#d4d4d4" font-size="20" font-weight="bold" filter="url(#glow)">October 13th M.E. 756</text>
         <text x="25" y="65" fill="#d4d4d4" font-size="22" font-weight="bold">Noctis Crowned King</text>
         <text x="25" y="100" fill="#ffffff" font-size="17">Miserable and sick with grief, yet steadfast in his</text>
@@ -299,7 +250,7 @@
         <text x="25" y="154" fill="#ffffff" font-size="17">Lucis. His rule is welcomed, but strenuous. A difficult</text>
         <text x="25" y="181" fill="#ffffff" font-size="17">path awaits him.</text>
     </g>
-</svg>
+<text x="30" y="3970" font-family="Georgia, serif" font-size="20" fill="#404040" opacity="0.8">AU and Timeline Created by Vaer1</text></svg>
     </div>
 </body>
 </html>
